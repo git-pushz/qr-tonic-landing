@@ -33,9 +33,9 @@ title: QR Tonic - Home
       <p class="text-lg max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
-    <div class="join join-vertical w-full">
+    <div class="join join-vertical w-full gap-2">
       <!-- Tradition -->
-      <div class="collapse collapse-arrow join-item border border-base-300">
+      <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" checked="checked" /> 
         <div class="collapse-title text-xl font-medium">
           Tradition
@@ -53,7 +53,7 @@ title: QR Tonic - Home
       </div>
 
       <!-- Culture -->
-      <div class="collapse collapse-arrow join-item border border-base-300">
+      <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
         <div class="collapse-title text-xl font-medium">
           Culture
@@ -71,7 +71,7 @@ title: QR Tonic - Home
       </div>
 
       <!-- Our Roots -->
-      <div class="collapse collapse-arrow join-item border border-base-300">
+      <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
         <div class="collapse-title text-xl font-medium">
           Our Roots
