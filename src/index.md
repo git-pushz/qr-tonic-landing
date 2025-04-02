@@ -176,13 +176,13 @@ title: QR Tonic - Home
     </div>
     <!-- Experience 2 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
-      <div class="order-2 lg:order-2">
+      <div class="lg:order-2">
         <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 2</h2>
         <p class="text-[#E52822] text-xl">
           Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
         </p>
       </div>
-      <div class="order-1 lg:order-1">
+      <div class="lg:order-1">
         <img 
           src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
           alt="Pepperoni pizza" 
