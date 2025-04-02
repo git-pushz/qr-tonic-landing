@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,js,njk,md}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
