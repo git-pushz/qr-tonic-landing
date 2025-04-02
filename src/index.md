@@ -32,7 +32,6 @@ title: QR Tonic - Home
       <h2 class="text-4xl font-bold mb-4">Who We Are</h2>
       <p class="text-lg max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-
     <div class="join join-vertical w-full gap-2">
       <!-- Tradition -->
       <div class="collapse bg-base-100 border border-base-300">
@@ -51,7 +50,6 @@ title: QR Tonic - Home
           </div>
         </div>
       </div>
-
       <!-- Culture -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
@@ -69,7 +67,6 @@ title: QR Tonic - Home
           </div>
         </div>
       </div>
-
       <!-- Our Roots -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
@@ -173,7 +170,6 @@ title: QR Tonic - Home
         />
       </div>
     </div>
-
     <!-- Experience 2 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
       <div class="order-2 lg:order-2">
@@ -190,7 +186,6 @@ title: QR Tonic - Home
         />
       </div>
     </div>
-
     <!-- Experience 3 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
