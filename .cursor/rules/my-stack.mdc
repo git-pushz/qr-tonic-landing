@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Technical Stack
+
+- 11ty
+- HTML
+- Tailwind
+- Daisy UI
+- Javascript (as few as possible)
+
+Purpose: Locks AI to a consistent tech stack, preventing unwanted deviations (e.g., JSON over SQL).
