@@ -4,18 +4,22 @@ title: QR Tonic - Home
 ---
 
 <section>
-  <div class="hero min-h-screen bg-base-200">
+  <div class="hero min-h-screen bg-black">
       <div class="hero-content text-center">
           <div class="max-w-md">
-          <h1 class="text-5xl font-bold">Welcome to QR Tonic</h1>
-          <p class="py-6">Your solution for modern QR code management and analytics.</p>
+              <h1 class="text-5xl font-bold text-white">Welcome message in here</h1>
+              <p class="py-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a hendrerit libero. In hac habitasse platea dictumst</p>
+              <div class="flex gap-4 justify-center">
+                  <button class="btn btn-ghost border border-white text-white hover:bg-white hover:text-black">Prenota ora</button>
+                  <button class="btn bg-[#E52822] text-white border-none hover:bg-[#c41f1a]">Menù</button>
+              </div>
           </div>
       </div>
   </div>
 </section>
 
 
-<section class="min-h-screen relative overflow-hidden">
+<section id="chi-siamo" class="min-h-screen relative overflow-hidden">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img 
@@ -152,7 +156,7 @@ title: QR Tonic - Home
   </div>
 </section>
 
-<section class="bg-[#FFC0CB] py-16">
+<section id="esperienze" class="bg-[#FFC0CB] py-16">
   <div class="container mx-auto px-4">
     <!-- Experience 1 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
