@@ -90,3 +90,102 @@ title: QR Tonic - Home
     </div>
   </div>
 </section>
+
+<section class="min-h-screen bg-[#E52822] relative">
+  <div class="container mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <!-- Left Column -->
+      <div class="text-white">
+        <h2 class="text-6xl font-bold mb-6">I nostri Eventi</h2>
+        <p class="text-xl mb-12">Scopri tutte le nostre esperienze e tutti i servizi che facciamo all'interno della nostra attività.</p>
+        
+        <div class="flex flex-col gap-4">
+          <!-- Bar -->
+          <div class="bg-white rounded-xl p-6">
+            <h3 class="text-[#E52822] text-2xl font-bold mb-4">Bar</h3>
+            <p class="text-[#E52822]">Explore our top-notch services designed to meet your needs.Explore our top-notch services designed to meet your needs.Explore our top.Explore our top-notch services designed to meet your needs.Explore our top.</p>
+          </div>
+          
+          <!-- Ristorante -->
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <h3 class="text-white text-2xl font-bold">Ristorante</h3>
+          </div>
+          
+          <!-- Mixology -->
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <h3 class="text-white text-2xl font-bold">Mixology</h3>
+          </div>
+          
+          <!-- Party hard -->
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <h3 class="text-white text-2xl font-bold">Party hard</h3>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div class="relative">
+        <img 
+          src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
+          alt="Pizza slice" 
+          class="w-full rounded-2xl shadow-xl"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#FFC0CB] py-16">
+  <div class="container mx-auto px-4">
+    <!-- Experience 1 -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
+      <div>
+        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 1</h2>
+        <p class="text-[#E52822] text-xl">
+          Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
+        </p>
+      </div>
+      <div>
+        <img 
+          src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+          alt="Pizza with strawberries" 
+          class="w-full rounded-2xl shadow-xl"
+        />
+      </div>
+    </div>
+
+    <!-- Experience 2 -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
+      <div class="order-2 lg:order-2">
+        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 2</h2>
+        <p class="text-[#E52822] text-xl">
+          Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
+        </p>
+      </div>
+      <div class="order-1 lg:order-1">
+        <img 
+          src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
+          alt="Pepperoni pizza" 
+          class="w-full rounded-2xl shadow-xl"
+        />
+      </div>
+    </div>
+
+    <!-- Experience 3 -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 3</h2>
+        <p class="text-[#E52822] text-xl">
+          Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
+        </p>
+      </div>
+      <div>
+        <img 
+          src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+          alt="Pizza with strawberries" 
+          class="w-full rounded-2xl shadow-xl"
+        />
+      </div>
+    </div>
+  </div>
+</section>
