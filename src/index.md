@@ -91,46 +91,66 @@ title: QR Tonic - Home
   </div>
 </section>
 
-<section class="min-h-screen bg-[#E52822] relative">
-  <div class="container mx-auto px-4 py-16">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-      <!-- Left Column -->
-      <div class="text-white">
-        <h2 class="text-6xl font-bold mb-6">I nostri Eventi</h2>
-        <p class="text-xl mb-12">Scopri tutte le nostre esperienze e tutti i servizi che facciamo all'interno della nostra attività.</p>
-        
-        <div class="flex flex-col gap-4">
-          <!-- Bar -->
-          <div class="bg-white rounded-xl p-6">
-            <h3 class="text-[#E52822] text-2xl font-bold mb-4">Bar</h3>
-            <p class="text-[#E52822]">Explore our top-notch services designed to meet your needs.Explore our top-notch services designed to meet your needs.Explore our top.Explore our top-notch services designed to meet your needs.Explore our top.</p>
-          </div>
-          
-          <!-- Ristorante -->
-          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-            <h3 class="text-white text-2xl font-bold">Ristorante</h3>
-          </div>
-          
-          <!-- Mixology -->
-          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-            <h3 class="text-white text-2xl font-bold">Mixology</h3>
-          </div>
-          
-          <!-- Party hard -->
-          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
-            <h3 class="text-white text-2xl font-bold">Party hard</h3>
-          </div>
+<section class="bg-black py-24">
+  <div class="container mx-auto px-4">
+    <h2 class="text-white text-6xl font-bold mb-4">Cosa dicono di noi</h2>
+    <p class="text-white text-xl mb-16">Qui trovi alcuni nei nostri commenti riportati sui nostri sociallllss</p>
+  </div>
+    
+  <div class="grid grid-flow-col auto-cols-[90%] md:auto-cols-[45%] lg:auto-cols-[30%] overflow-x-auto gap-12">
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
         </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      
-      <!-- Right Column -->
-      <div class="relative">
-        <img 
-          src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
-          alt="Pizza slice" 
-          class="w-full rounded-2xl shadow-xl"
-        />
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+    </div>
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
+        </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+    </div>
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
+        </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
+      </div>
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+    </div>
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
+        </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
+      </div>
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+    </div>
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
+        </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
+      </div>
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+    </div>
+    <div class="bg-white rounded-2xl p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
+          <span class="text-xs">PHOTO</span>
+        </div>
+        <h3 class="font-bold text-xl">Emily Johnson</h3>
+      </div>
+      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
     </div>
   </div>
 </section>
