@@ -9,35 +9,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script>
-        function toggleMenu() {
+        function toggleMenu(event) {
+            if (event) {
+                event.stopPropagation();
+            }
             const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
+            const overlay = document.getElementById('menu-overlay');
+            const isMenuOpen = !menu.classList.contains('translate-x-full');
+            
+            if (isMenuOpen) {
+                // Close menu
+                menu.classList.add('translate-x-full');
+                overlay.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            } else {
+                // Open menu
+                menu.classList.remove('translate-x-full');
+                overlay.classList.remove('hidden');
+                document.body.classList.add('overflow-hidden');
+            }
         }
+
+        // Handle clicks outside the menu
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('mobile-menu');
+            const menuButton = document.querySelector('.menu-toggle');
+            const overlay = document.getElementById('menu-overlay');
+
+            if (!menu.classList.contains('translate-x-full') && // menu is open
+                !menu.contains(event.target) && // click not on menu
+                !menuButton.contains(event.target)) { // click not on menu button
+                toggleMenu();
+            }
+        });
     </script>
 </head>
 <body class="min-h-screen bg-base-100">
+    <!-- Backdrop overlay -->
+    <div id="menu-overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 hidden"></div>
     <header class="navbar fixed left-0 top-0 w-full z-50 bg-[#FFC0CB]">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <div class="text-[#E52822] text-2xl font-bold">
                 LOGO
             </div>
             <!-- Mobile menu button -->
-            <button onclick="toggleMenu()" class="text-[#E52822] hover:text-[#c41f1a]">
+            <button class="menu-toggle text-[#E52822] hover:text-[#c41f1a]" onclick="toggleMenu(event)">
                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
         </div>
         <!-- Mobile menu -->
-        <div id="mobile-menu" class="fixed right-0 top-0 h-screen w-80 bg-[#E52822] transform transition-transform duration-300 ease-in-out hidden">
-            <div class="p-4 flex justify-end">
-                <button onclick="toggleMenu()" class="text-white hover:text-gray-200">
+        <div id="mobile-menu" class="fixed right-0 top-0 h-screen w-80 bg-[#E52822] transform transition-transform duration-300 ease-in-out translate-x-full z-50">
+            <div class="absolute top-4 right-4">
+                <button onclick="toggleMenu(event)" class="text-white hover:text-gray-200">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                 </button>
             </div>
-            <nav class="px-8 py-4">
+            <nav class="px-8 pt-20 pb-4">
                 <ul class="space-y-6">
                     <li><a href="#chi-siamo" class="text-white text-2xl font-bold hover:text-gray-200" onclick="toggleMenu()">Chi siamo</a></li>
                     <li><a href="#esperienze" class="text-white text-2xl font-bold hover:text-gray-200" onclick="toggleMenu()">Esperienze</a></li>
