@@ -46,70 +46,84 @@ title: QR Tonic - Home
 
 
 <section id="chi-siamo" class="min-h-screen relative overflow-hidden">
-  <!-- Background Image
-  <div class="absolute inset-0 z-0 min-h-screen">
-    <img 
-      src="https://t4.ftcdn.net/jpg/02/55/57/33/360_F_255573369_NrbcMNYC1hz1xJigxCOCN8OXsxmtx0TB.jpg" 
-      alt="Background" 
-      class="w-full h-full object-cover blur-sm"
-    />
-    <div class="absolute inset-0 bg-base-200/80"></div>
+  <!-- Red Background -->
+  <div class="absolute inset-0 z-0">
+    <!-- Red full width on mobile, 70% on medium and up -->
+    <div class="w-full md:w-[70%] h-full bg-[#E52822]"></div>
+    <!-- Hidden on mobile, visible 30% on medium and up -->
+    <div class="hidden md:block md:w-[30%] h-full bg-white"></div>
   </div>
-  -->
   <!-- Content -->
   <div class="container mx-auto px-4 py-16 relative z-10">
     <div class="text-left mb-12">
-      <h2 class="text-4xl md:text-6xl font-black uppercase mb-4">Who We Are</h2>
-      <p class="text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h2 class="text-4xl md:text-6xl font-black uppercase mb-4 text-white">I nostri Eventi</h2>
+      <p class="text-lg max-w-2xl text-white/90">Scopri tutte le nostre esperienze e tutti i servizi che facciamo all'interno della nostra attività.</p>
     </div>
     <div class="join join-vertical w-full gap-2">
       <!-- Tradition -->
-      <div class="collapse bg-base-100 border border-base-300">
+      <div class="collapse bg-white rounded-xl shadow-lg">
         <input type="radio" name="who-we-are" checked="checked" /> 
-        <div class="collapse-title text-2xl md:text-4xl font-black">
-          Tradition
+        <div class="collapse-title text-2xl md:text-4xl font-black text-[#E52822]">
+          Bar
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex">
-              <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <p class="text-lg text-[#E52822]">Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.</p>
             </div>
             <div class="h-full">
-              <img src="https://placehold.co/800x600" alt="Tradition" class="w-full h-full object-cover rounded-lg" />
+              <img src="https://placehold.co/800x600" alt="Bar" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
         </div>
       </div>
       <!-- Culture -->
-      <div class="collapse bg-base-100 border border-base-300">
+      <div class="collapse bg-white rounded-xl shadow-lg">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-2xl md:text-4xl font-black">
-          Culture
+        <div class="collapse-title text-2xl md:text-4xl font-black text-[#E52822]">
+          Ristorante
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex">
-              <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <p class="text-lg text-[#E52822]">Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.</p>
             </div>
             <div class="h-full">
-              <img src="https://placehold.co/800x600" alt="Culture" class="w-full h-full object-cover rounded-lg" />
+              <img src="https://placehold.co/800x600" alt="Ristorante" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
         </div>
       </div>
       <!-- Our Roots -->
-      <div class="collapse bg-base-100 border border-base-300">
+      <div class="collapse bg-white rounded-xl shadow-lg">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-2xl md:text-4xl font-black">
-          Our Roots
+        <div class="collapse-title text-2xl md:text-4xl font-black text-[#E52822]">
+          Mixology
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex">
-              <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <p class="text-lg text-[#E52822]">Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.</p>
             </div>
             <div class="h-full">
-              <img src="https://placehold.co/800x600" alt="Our Roots" class="w-full h-full object-cover rounded-lg" />
+              <img src="https://placehold.co/800x600" alt="Mixology" class="w-full h-full object-cover rounded-lg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Party Hard -->
+      <div class="collapse bg-white rounded-xl shadow-lg">
+        <input type="radio" name="who-we-are" /> 
+        <div class="collapse-title text-2xl md:text-4xl font-black text-[#E52822]">
+          Party hard
+        </div>
+        <div class="collapse-content">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex">
+              <p class="text-lg text-[#E52822]">Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.</p>
+            </div>
+            <div class="h-full">
+              <img src="https://placehold.co/800x600" alt="Party hard" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
         </div>
