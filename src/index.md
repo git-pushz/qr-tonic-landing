@@ -6,12 +6,12 @@ title: QR Tonic - Home
 <section>
   <div class="hero min-h-screen bg-black">
       <div class="hero-content text-center">
-          <div class="max-w-md">
+          <div class="max-w-2xl">
               <h1 class="text-5xl font-bold text-white">Welcome message in here</h1>
               <p class="py-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a hendrerit libero. In hac habitasse platea dictumst</p>
-              <div class="flex gap-4 justify-center">
-                  <button class="btn btn-ghost border border-white text-white hover:bg-white hover:text-black">Prenota ora</button>
-                  <button class="btn bg-[#E52822] text-white border-none hover:bg-[#c41f1a]">Menù</button>
+              <div class="flex px-2 py-1 gap-4 justify-center rounded-lg bg-white/60 w-fit mx-auto">
+                  <button class="btn border-[#E52822] text-[#E52822] bg-transparent hover:bg-[#E52822] hover:text-white h-1 w-44">Prenota ora</button>
+                  <button class="btn bg-[#E52822] text-white border-none hover:bg-[#c41f1a] h-1 w-44">Menù</button>
               </div>
           </div>
       </div>

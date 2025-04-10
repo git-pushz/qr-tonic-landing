@@ -48,3 +48,12 @@ npm run build
 ## Production Build
 
 The production build will be generated in the `_site` directory. 
+
+# TODOs
+
+- [ ] Adjust the design
+- [ ] Change the Logo to an icon
+- [ ] Extract sections to files
+- [ ] Extract texts to config
+- [ ] Takes all colors from the theme color palette
+- [ ] Extract colors palette to config
