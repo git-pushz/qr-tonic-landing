@@ -4,7 +4,31 @@ title: QR Tonic - Home
 ---
 
 <section>
-  <div class="hero min-h-dvh bg-black bg-black relative">
+  <div class="hero min-h-dvh bg-black relative overflow-hidden">
+      <!-- Fallback Background Image -->
+      <div id="fallback-bg" class="absolute inset-0 w-full h-full hidden">
+        <img 
+          src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg" 
+          alt="Pizza background" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <!-- Video Background -->
+      <video 
+        id="hero-video"
+        class="absolute inset-0 w-full h-full object-cover opacity-50"
+        autoplay 
+        loop 
+        muted 
+        playsinline
+        oncanplay="document.getElementById('fallback-bg').classList.add('hidden')"
+        onerror="document.getElementById('fallback-bg').classList.remove('hidden')"
+      >
+        <source src="https://videos.pexels.com/video-files/3752507/3752507-hd_1920_1080_24fps.mp4" type="video/mp4">
+      </video>
+      <!-- Overlay for better text contrast -->
+      <div class="absolute inset-0 bg-black/50"></div>
+      
       <div class="hero-content text-center relative -top-20">
           <div class="max-w-2xl">
               <h1 class="text-4xl md:text-6xl font-bold text-white">Welcome message in here</h1>
