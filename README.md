@@ -57,3 +57,4 @@ The production build will be generated in the `_site` directory.
 - [ ] Extract texts to config
 - [ ] Takes all colors from the theme color palette
 - [ ] Extract colors palette to config
+- [ ] Have a standard px and py on containers in index.md

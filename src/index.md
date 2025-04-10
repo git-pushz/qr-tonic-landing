@@ -34,23 +34,23 @@ title: QR Tonic - Home
 
   <!-- Content -->
   <div class="container mx-auto px-4 py-16 relative z-10">
-    <div class="text-center mb-12">
-      <h2 class="text-4xl font-bold mb-4">Who We Are</h2>
-      <p class="text-lg max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="text-left mb-12">
+      <h2 class="text-6xl font-black uppercase mb-4">Who We Are</h2>
+      <p class="text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="join join-vertical w-full gap-2">
       <!-- Tradition -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" checked="checked" /> 
-        <div class="collapse-title text-xl font-medium">
+        <div class="collapse-title text-4xl font-black">
           Tradition
         </div>
         <div class="collapse-content">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex items-center">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
-            <div class="aspect-video">
+            <div class="h-full">
               <img src="https://placehold.co/800x600" alt="Tradition" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
@@ -59,15 +59,15 @@ title: QR Tonic - Home
       <!-- Culture -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-xl font-medium">
+        <div class="collapse-title text-4xl font-black">
           Culture
         </div>
         <div class="collapse-content">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex items-center">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
-            <div class="aspect-video">
+            <div class="h-full">
               <img src="https://placehold.co/800x600" alt="Culture" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
@@ -76,15 +76,15 @@ title: QR Tonic - Home
       <!-- Our Roots -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-xl font-medium">
+        <div class="collapse-title text-4xl font-black">
           Our Roots
         </div>
         <div class="collapse-content">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex items-center">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
-            <div class="aspect-video">
+            <div class="h-full">
               <img src="https://placehold.co/800x600" alt="Our Roots" class="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
