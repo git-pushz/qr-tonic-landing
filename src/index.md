@@ -100,7 +100,7 @@ title: QR Tonic - Home
     <p class="text-white text-xl mb-16">Qui trovi alcuni nei nostri commenti riportati sui nostri sociallllss</p>
   </div>
     
-  <div class="grid grid-flow-col auto-cols-[90%] md:auto-cols-[45%] lg:auto-cols-[30%] overflow-x-auto gap-12">
+  <div class="grid grid-flow-col auto-cols-[80%] md:auto-cols-[45%] lg:auto-cols-[30%] overflow-x-auto gap-12">
     <div class="relative">
       <div class="bg-white rounded-2xl p-6">
         <div class="flex gap-6">
