@@ -101,59 +101,109 @@ title: QR Tonic - Home
   </div>
     
   <div class="grid grid-flow-col auto-cols-[90%] md:auto-cols-[45%] lg:auto-cols-[30%] overflow-x-auto gap-12">
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
+    <div class="relative">
+      <div class="bg-white rounded-2xl p-6">
+        <div class="flex gap-6">
+          <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+            <span class="text-xs">PHOTO</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+            <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+          </div>
         </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+      <div class="mt-1">
+        <div class="bg-white rounded-2xl p-6 transform scale-y-[1] opacity-60" style="mask-image: linear-gradient(to bottom, black 20%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);">
+          <div class="flex gap-6">
+            <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              <span class="text-xs">PHOTO</span>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+              <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
+    <div class="relative">
+      <div class="bg-white rounded-2xl p-6">
+        <div class="flex gap-6">
+          <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+            <span class="text-xs">PHOTO</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+            <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+          </div>
         </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+      <div class="mt-1">
+        <div class="bg-white rounded-2xl p-6 transform scale-y-[1] opacity-60" style="mask-image: linear-gradient(to bottom, black 20%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);">
+          <div class="flex gap-6">
+            <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              <span class="text-xs">PHOTO</span>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+              <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
+    <div class="relative">
+      <div class="bg-white rounded-2xl p-6">
+        <div class="flex gap-6">
+          <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+            <span class="text-xs">PHOTO</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+            <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+          </div>
         </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+      <div class="mt-1">
+        <div class="bg-white rounded-2xl p-6 transform scale-y-[1] opacity-60" style="mask-image: linear-gradient(to bottom, black 20%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);">
+          <div class="flex gap-6">
+            <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              <span class="text-xs">PHOTO</span>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+              <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
+    <div class="relative">
+      <div class="bg-white rounded-2xl p-6">
+        <div class="flex gap-6">
+          <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+            <span class="text-xs">PHOTO</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+            <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+          </div>
         </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
-    </div>
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
+      <div class="mt-1">
+        <div class="bg-white rounded-2xl p-6 transform scale-y-[1] opacity-60" style="mask-image: linear-gradient(to bottom, black 20%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);">
+          <div class="flex gap-6">
+            <div class="w-16 h-16 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              <span class="text-xs">PHOTO</span>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl mb-2">Emily Johnson</h3>
+              <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
+            </div>
+          </div>
         </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
       </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
-    </div>
-    <div class="bg-white rounded-2xl p-6">
-      <div class="flex items-center gap-4 mb-4">
-        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-          <span class="text-xs">PHOTO</span>
-        </div>
-        <h3 class="font-bold text-xl">Emily Johnson</h3>
-      </div>
-      <p class="text-gray-700">I am amazed by the exceptional service provided by this company. They exceeded all my expectations!</p>
     </div>
   </div>
 </section>
