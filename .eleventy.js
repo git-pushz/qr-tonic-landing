@@ -16,5 +16,6 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
+    pathPrefix: process.env.NODE_ENV === 'production' ? '/qr-tonic-landing/' : '/'
   };
 }; 

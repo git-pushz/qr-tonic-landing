@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i ./src/assets/css/tailwind.css -o ./_site/assets/css/styles.css --watch",
-    "build": "eleventy && npx tailwindcss -i ./src/assets/css/tailwind.css -o ./_site/assets/css/styles.css --minify",
+    "build": "NODE_ENV=production eleventy && npx tailwindcss -i ./src/assets/css/tailwind.css -o ./_site/assets/css/styles.css --minify",
     "dev": "npm run start"
   },
   "keywords": [],
