@@ -35,14 +35,14 @@ title: QR Tonic - Home
   <!-- Content -->
   <div class="container mx-auto px-4 py-16 relative z-10">
     <div class="text-left mb-12">
-      <h2 class="text-6xl font-black uppercase mb-4">Who We Are</h2>
+      <h2 class="text-4xl md:text-6xl font-black uppercase mb-4">Who We Are</h2>
       <p class="text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="join join-vertical w-full gap-2">
       <!-- Tradition -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" checked="checked" /> 
-        <div class="collapse-title text-4xl font-black">
+        <div class="collapse-title text-2xl md:text-4xl font-black">
           Tradition
         </div>
         <div class="collapse-content">
@@ -59,7 +59,7 @@ title: QR Tonic - Home
       <!-- Culture -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-4xl font-black">
+        <div class="collapse-title text-2xl md:text-4xl font-black">
           Culture
         </div>
         <div class="collapse-content">
@@ -76,7 +76,7 @@ title: QR Tonic - Home
       <!-- Our Roots -->
       <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="who-we-are" /> 
-        <div class="collapse-title text-4xl font-black">
+        <div class="collapse-title text-2xl md:text-4xl font-black">
           Our Roots
         </div>
         <div class="collapse-content">
@@ -96,7 +96,7 @@ title: QR Tonic - Home
 
 <section class="bg-black py-24">
   <div class="container mx-auto px-4">
-    <h2 class="text-white text-6xl font-bold mb-4">Cosa dicono di noi</h2>
+    <h2 class="text-white text-4xl md:text-6xl font-bold mb-4">Cosa dicono di noi</h2>
     <p class="text-white text-xl mb-16">Qui trovi alcuni nei nostri commenti riportati sui nostri sociallllss</p>
   </div>
     
@@ -213,7 +213,7 @@ title: QR Tonic - Home
     <!-- Experience 1 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
       <div>
-        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 1</h2>
+        <h2 class="text-[#E52822] text-4xl md:text-6xl font-bold mb-6">EXPERIENCE 1</h2>
         <p class="text-[#E52822] text-xl">
           Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
         </p>
@@ -229,7 +229,7 @@ title: QR Tonic - Home
     <!-- Experience 2 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
       <div class="lg:order-2">
-        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 2</h2>
+        <h2 class="text-[#E52822] text-4xl md:text-6xl font-bold mb-6">EXPERIENCE 2</h2>
         <p class="text-[#E52822] text-xl">
           Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
         </p>
@@ -245,7 +245,7 @@ title: QR Tonic - Home
     <!-- Experience 3 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-[#E52822] text-6xl font-bold mb-6">EXPERIENCE 3</h2>
+        <h2 class="text-[#E52822] text-4xl md:text-6xl font-bold mb-6">EXPERIENCE 3</h2>
         <p class="text-[#E52822] text-xl">
           Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.
         </p>
