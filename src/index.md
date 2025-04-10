@@ -46,7 +46,7 @@ title: QR Tonic - Home
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="flex items-center">
+            <div class="flex">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
             <div class="h-full">
@@ -63,7 +63,7 @@ title: QR Tonic - Home
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="flex items-center">
+            <div class="flex">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
             <div class="h-full">
@@ -80,7 +80,7 @@ title: QR Tonic - Home
         </div>
         <div class="collapse-content">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="flex items-center">
+            <div class="flex">
               <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
             <div class="h-full">
