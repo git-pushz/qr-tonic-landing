@@ -21,9 +21,9 @@ title: QR Tonic - Home
 </section>
 
 
-<section id="chi-siamo" class="max-h-screen relative overflow-hidden">
-  <!-- Background Image -->
-  <div class="absolute inset-0 z-0 max-h-screen">
+<section id="chi-siamo" class="min-h-screen relative overflow-hidden">
+  <!-- Background Image
+  <div class="absolute inset-0 z-0 min-h-screen">
     <img 
       src="https://t4.ftcdn.net/jpg/02/55/57/33/360_F_255573369_NrbcMNYC1hz1xJigxCOCN8OXsxmtx0TB.jpg" 
       alt="Background" 
@@ -31,6 +31,7 @@ title: QR Tonic - Home
     />
     <div class="absolute inset-0 bg-base-200/80"></div>
   </div>
+  -->
   <!-- Content -->
   <div class="container mx-auto px-4 py-16 relative z-10">
     <div class="text-left mb-12">
