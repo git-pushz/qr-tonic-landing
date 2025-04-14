@@ -1,0 +1,32 @@
+<!-- Backdrop overlay -->
+<div id="menu-overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 hidden"></div>
+<header class="navbar fixed left-0 top-0 w-full z-50 bg-secondary">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="text-primary text-2xl font-bold">
+            <img src="{{ features.logo.src | url }}" alt="{{ features.logo.alt }}" class="h-12">
+        </div>
+        <!-- Mobile menu button -->
+        <button class="menu-toggle text-primary hover:text-primary-focus" onclick="toggleMenu(event)">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="fixed right-0 top-0 h-screen w-80 transform transition-transform duration-300 ease-in-out translate-x-full z-50 bg-primary">
+        <div class="absolute top-4 right-4">
+            <button onclick="toggleMenu(event)" class="text-base-100 hover:text-base-200">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <nav class="px-8 pt-20 pb-4">
+            <ul class="space-y-6">
+                <li><a href="#chi-siamo" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Chi siamo</a></li>
+                <li><a href="#esperienze" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Esperienze</a></li>
+                <li><a href="#contatti" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+</header> 

@@ -51,10 +51,10 @@ The production build will be generated in the `_site` directory.
 
 # TODOs
 
-- [ ] Adjust the design
-- [ ] Change the Logo to an icon
-- [ ] Extract sections to files
-- [ ] Extract texts to config
-- [ ] Takes all colors from the theme color palette
-- [ ] Extract colors palette to config
-- [ ] Have a standard px and py on containers in index.md
+- [X] Adjust the design
+- [X] Change the Logo to an icon
+- [X] Extract sections to files
+- [X] Extract texts to config
+- [X] Takes all colors from the theme color palette
+- [X] Extract colors palette to config
+- [X] Have a standard px and py on containers in index.md
