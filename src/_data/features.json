@@ -1,0 +1,79 @@
+{
+  "whoWeAre": {
+    "title": "Chi siamo",
+    "subtitle": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
+    "businessTraits": [
+      {
+        "title": "Bar",
+        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
+        "image": "https://placehold.co/800x600"
+      },
+      {
+        "title": "Ristorante",
+        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
+        "image": "https://placehold.co/800x600"
+      },
+      {
+        "title": "Mixology",
+        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
+        "image": "https://placehold.co/800x600"
+      },
+      {
+        "title": "Party hard",
+        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
+        "image": "https://placehold.co/800x600"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Cosa dicono di noi",
+    "subtitle": "Qui trovi alcuni nei nostri commenti riportati sui nostri sociallllss",
+    "reviews": [
+      {
+        "avatar": "https://placehold.co/64x64",
+        "name": "Emily Johnson",
+        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
+      },
+      {
+        "avatar": "https://placehold.co/64x64",
+        "name": "Emily Johnson",
+        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
+      },
+      {
+        "avatar": "https://placehold.co/64x64",
+        "name": "Emily Johnson",
+        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
+      },
+      {
+        "avatar": "https://placehold.co/64x64",
+        "name": "Emily Johnson",
+        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Esperienza 1",
+      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
+      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      "title": "Esperienza 2",
+      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      "title": "Esperienza 3",
+      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
+      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+    }
+  ],
+  "footer": {
+    "email": "info@qrtonic.com",
+    "phone": "+39 123 456 7890",
+    "location": {
+      "latitude": 44.2002,
+      "longitude": 7.2912
+    }
+  }
+} 
