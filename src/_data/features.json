@@ -1,4 +1,30 @@
 {
+  "theme": {
+    "name": "qrtonic",
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#FED3FF",
+      "accent": "#FF0000",
+      "neutral": "#1C1C1C",
+      "base-100": "#FFFFFF",
+      "info": "#3ABFF8",
+      "success": "#36D399",
+      "warning": "#FBBD23",
+      "error": "#F87272"
+    }
+  },
+  "logo": {
+    "src": "https://img.freepik.com/free-vector/logo-with-curly-arrow_1043-146.jpg?t=st=1744642409~exp=1744646009~hmac=348062190c645a8b01ca78b26649b77c51c047329176fa4d5de1d3ec067d4b0b&w=1380",
+    "alt": "QR Tonic Logo"
+  },
+  "hero": {
+    "title": "Welcome message in here",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a hendrerit libero. In hac habitasse platea dictumst",
+    "background": {
+      "fallback": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg",
+      "video": "https://videos.pexels.com/video-files/3752507/3752507-hd_1920_1080_24fps.mp4"
+    }
+  },
   "whoWeAre": {
     "title": "Chi siamo",
     "subtitle": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
@@ -53,18 +79,23 @@
   },
   "experiences": [
     {
-      "title": "Esperienza 1",
+      "title": "EXPERIENCE 1",
       "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
       "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      "title": "Esperienza 2",
+      "title": "EXPERIENCE 2",
       "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
       "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      "title": "Esperienza 3",
+      "title": "EXPERIENCE 3",
       "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
+      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+    },
+    {
+      "title": "EXPERIENCE 4",
+      "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
       "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
     }
   ],
@@ -72,8 +103,8 @@
     "email": "info@qrtonic.com",
     "phone": "+39 123 456 7890",
     "location": {
-      "latitude": 44.2002,
-      "longitude": 7.2912
+      "latitude": 45.4642,
+      "longitude": 9.1900
     }
   }
 } 

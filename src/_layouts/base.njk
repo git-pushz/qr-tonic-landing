@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="{{ features.theme.name }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#FFC0CB">
+    <meta name="theme-color" content="{{ features.theme.colors.primary }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>{{ title }}</title>
@@ -50,22 +50,22 @@
 <body class="min-h-screen bg-base-100">
     <!-- Backdrop overlay -->
     <div id="menu-overlay" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 hidden"></div>
-    <header class="navbar fixed left-0 top-0 w-full z-50 bg-[#FFC0CB]">
+    <header class="navbar fixed left-0 top-0 w-full z-50 bg-secondary">
         <div class="container mx-auto px-4 flex justify-between items-center">
-            <div class="text-[#E52822] text-2xl font-bold">
-                LOGO
+            <div class="text-primary text-2xl font-bold">
+                <img src="{{ features.logo.src | url }}" alt="{{ features.logo.alt }}" class="h-12">
             </div>
             <!-- Mobile menu button -->
-            <button class="menu-toggle text-[#E52822] hover:text-[#c41f1a]" onclick="toggleMenu(event)">
+            <button class="menu-toggle text-primary hover:text-primary-focus" onclick="toggleMenu(event)">
                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
             </button>
         </div>
         <!-- Mobile menu -->
-        <div id="mobile-menu" class="fixed right-0 top-0 h-screen w-80 bg-[#E52822] transform transition-transform duration-300 ease-in-out translate-x-full z-50">
+        <div id="mobile-menu" class="fixed right-0 top-0 h-screen w-80 transform transition-transform duration-300 ease-in-out translate-x-full z-50 bg-primary">
             <div class="absolute top-4 right-4">
-                <button onclick="toggleMenu(event)" class="text-white hover:text-gray-200">
+                <button onclick="toggleMenu(event)" class="text-base-100 hover:text-base-200">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
@@ -73,9 +73,9 @@
             </div>
             <nav class="px-8 pt-20 pb-4">
                 <ul class="space-y-6">
-                    <li><a href="#chi-siamo" class="text-white text-2xl font-bold hover:text-gray-200" onclick="toggleMenu()">Chi siamo</a></li>
-                    <li><a href="#esperienze" class="text-white text-2xl font-bold hover:text-gray-200" onclick="toggleMenu()">Esperienze</a></li>
-                    <li><a href="#contatti" class="text-white text-2xl font-bold hover:text-gray-200" onclick="toggleMenu()">Contatti</a></li>
+                    <li><a href="#chi-siamo" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Chi siamo</a></li>
+                    <li><a href="#esperienze" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Esperienze</a></li>
+                    <li><a href="#contatti" class="text-base-100 text-2xl font-bold hover:text-base-200" onclick="toggleMenu()">Contatti</a></li>
                 </ul>
             </nav>
         </div>
@@ -85,21 +85,21 @@
         {{ content | safe }}
     </main>
 
-    <footer class="bg-[#1C1C1C] py-24">
+    <footer class="bg-neutral py-24">
       <div id="contatti" class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <!-- Contact Information -->
           <div>
-            <h2 class="text-[#FFC0CB] text-4xl md:text-6xl font-bold mb-12">Contatti</h2>
+            <h2 class="text-secondary text-4xl md:text-6xl font-bold mb-12">Contatti</h2>
             <div class="space-y-8">
               <div class="flex gap-8">
                 <div>
-                  <h3 class="text-white text-xl mb-2">Email</h3>
-                  <p class="text-white text-lg">{{ features.footer.email }}</p>
+                  <h3 class="text-base-100 text-xl mb-2">Email</h3>
+                  <p class="text-base-100 text-lg">{{ features.footer.email }}</p>
                 </div>
                 <div>
-                  <h3 class="text-white text-xl mb-2">Telefono</h3>
-                  <p class="text-white text-lg">{{ features.footer.phone }}</p>
+                  <h3 class="text-base-100 text-xl mb-2">Telefono</h3>
+                  <p class="text-base-100 text-lg">{{ features.footer.phone }}</p>
                 </div>
               </div>
             </div>
