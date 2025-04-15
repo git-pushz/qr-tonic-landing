@@ -14,91 +14,101 @@
     }
   },
   "logo": {
-    "src": "https://img.freepik.com/free-vector/logo-with-curly-arrow_1043-146.jpg?t=st=1744642409~exp=1744646009~hmac=348062190c645a8b01ca78b26649b77c51c047329176fa4d5de1d3ec067d4b0b&w=1380",
-    "alt": "QR Tonic Logo"
+    "src": "https://www.svgrepo.com/show/525658/bar-chair.svg",
+    "alt": "QR Tonic Logo",
+    "width": "200",
+    "height": "50"
   },
-  "hero": {
-    "title": "Welcome message in here",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a hendrerit libero. In hac habitasse platea dictumst",
-    "background": {
-      "fallback": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg",
-      "video": "https://videos.pexels.com/video-files/3752507/3752507-hd_1920_1080_24fps.mp4"
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "title": "Benvenuti al QR Tonic",
+      "subtitle": "Scopri l'arte della mixologia italiana in un'atmosfera unica. I nostri cocktail sono creati con passione e ingredienti di prima qualità.",
+      "background": {
+        "fallback": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg",
+        "video": "https://videos.pexels.com/video-files/3752507/3752507-hd_1920_1080_24fps.mp4"
+      }
+    },
+    "whoWeAre": {
+      "enabled": true,
+      "title": "Chi Siamo",
+      "subtitle": "Un'esperienza unica nel cuore della città, dove tradizione e innovazione si incontrano.",
+      "businessTraits": [
+        {
+          "title": "Mixologia",
+          "text": "I nostri bartender creano cocktail unici utilizzando tecniche moderne e ingredienti locali.",
+          "image": "https://placehold.co/800x600"
+        },
+        {
+          "title": "Cucina",
+          "text": "Piatti raffinati che esaltano i sapori della tradizione italiana con un tocco contemporaneo.",
+          "image": "https://placehold.co/800x600"
+        },
+        {
+          "title": "Atmosfera",
+          "text": "Un ambiente elegante e accogliente, perfetto per ogni occasione speciale.",
+          "image": "https://placehold.co/800x600"
+        },
+        {
+          "title": "Eventi",
+          "text": "Organizziamo serate tematiche e degustazioni per farvi scoprire il meglio della nostra offerta.",
+          "image": "https://placehold.co/800x600"
+        }
+      ]
+    },
+    "testimonials": {
+      "enabled": true,
+      "title": "Cosa Dicono i Nostri Clienti",
+      "subtitle": "Le esperienze dei nostri ospiti raccontano la nostra storia",
+      "reviews": [
+        {
+          "avatar": "https://placehold.co/64x64",
+          "name": "Marco Rossi",
+          "text": "Un'esperienza indimenticabile! I cocktail sono eccezionali e l'atmosfera è perfetta per una serata speciale."
+        },
+        {
+          "avatar": "https://placehold.co/64x64",
+          "name": "Laura Bianchi",
+          "text": "Il servizio è impeccabile e la selezione di vini è straordinaria. Tornerò sicuramente!"
+        },
+        {
+          "avatar": "https://placehold.co/64x64",
+          "name": "Giuseppe Verdi",
+          "text": "La qualità dei piatti e la presentazione sono di altissimo livello. Consigliatissimo!"
+        },
+        {
+          "avatar": "https://placehold.co/64x64",
+          "name": "Sofia Romano",
+          "text": "L'ambiente è elegante e accogliente. Perfetto per un aperitivo con gli amici o una cena romantica."
+        }
+      ]
+    },
+    "experiences": {
+      "enabled": true,
+      "items": [
+        {
+          "title": "Aperitivo Italiano",
+          "text": "Scopri la tradizione dell'aperitivo italiano con i nostri cocktail signature e stuzzichini gourmet.",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+          "title": "Cena a Lume di Candela",
+          "text": "Vivi un'esperienza romantica con la nostra cena a lume di candela e il servizio esclusivo.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+          "title": "Mixology Class",
+          "text": "Impara l'arte della mixologia con i nostri bartender esperti in un'esperienza unica e coinvolgente.",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+          "title": "Degustazione Vini",
+          "text": "Esplora i migliori vini italiani con la nostra selezione curata e l'esperienza dei nostri sommelier.",
+          "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
+        }
+      ]
     }
   },
-  "whoWeAre": {
-    "title": "Chi siamo",
-    "subtitle": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
-    "businessTraits": [
-      {
-        "title": "Bar",
-        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
-        "image": "https://placehold.co/800x600"
-      },
-      {
-        "title": "Ristorante",
-        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
-        "image": "https://placehold.co/800x600"
-      },
-      {
-        "title": "Mixology",
-        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
-        "image": "https://placehold.co/800x600"
-      },
-      {
-        "title": "Party hard",
-        "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
-        "image": "https://placehold.co/800x600"
-      }
-    ]
-  },
-  "testimonials": {
-    "title": "Cosa dicono di noi",
-    "subtitle": "Qui trovi alcuni nei nostri commenti riportati sui nostri sociallllss",
-    "reviews": [
-      {
-        "avatar": "https://placehold.co/64x64",
-        "name": "Emily Johnson",
-        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
-      },
-      {
-        "avatar": "https://placehold.co/64x64",
-        "name": "Emily Johnson",
-        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
-      },
-      {
-        "avatar": "https://placehold.co/64x64",
-        "name": "Emily Johnson",
-        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
-      },
-      {
-        "avatar": "https://placehold.co/64x64",
-        "name": "Emily Johnson",
-        "text": "I am amazed by the exceptional service provided by this company. They exceeded all my expectations!"
-      }
-    ]
-  },
-  "experiences": [
-    {
-      "title": "EXPERIENCE 1",
-      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
-      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
-    },
-    {
-      "title": "EXPERIENCE 2",
-      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
-      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop"
-    },
-    {
-      "title": "EXPERIENCE 3",
-      "text": "Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.Explore a variety of activities offered by the restaurant, including special events, workshops, and promotions.",
-      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
-    },
-    {
-      "title": "EXPERIENCE 4",
-      "text": "Explore our top-notch services designed to meet your needs. Explore our top-notch services designed to meet your needs.",
-      "image": "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?q=80&w=2940&auto=format&fit=crop"
-    }
-  ],
   "footer": {
     "email": "info@qrtonic.com",
     "phone": "+39 123 456 7890",

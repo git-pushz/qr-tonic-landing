@@ -1,10 +1,11 @@
+{% if features.sections.hero.enabled %}
 <section>
   <div class="hero min-h-dvh bg-neutral relative overflow-hidden">
       <!-- Fallback Background Image -->
       <div id="fallback-bg" class="absolute inset-0 w-full h-full hidden">
         <img 
-          src="{{ features.hero.background.fallback }}" 
-          alt="Pizza background" 
+          src="{{ features.sections.hero.background.fallback }}" 
+          alt="Restaurant background" 
           class="w-full h-full object-cover"
         />
       </div>
@@ -19,22 +20,23 @@
         oncanplay="document.getElementById('fallback-bg').classList.add('hidden')"
         onerror="document.getElementById('fallback-bg').classList.remove('hidden')"
       >
-        <source src="{{ features.hero.background.video }}" type="video/mp4">
+        <source src="{{ features.sections.hero.background.video }}" type="video/mp4">
       </video>
       <!-- Overlay for better text contrast -->
       <div class="absolute inset-0 bg-neutral/50"></div>
       
       <div class="hero-content text-center relative -top-20">
           <div class="max-w-2xl">
-              <h1 class="text-4xl md:text-6xl font-bold text-base-100">{{ features.hero.title }}</h1>
-              <p class="py-6 text-base-100">{{ features.hero.subtitle }}</p>
+              <h1 class="text-4xl md:text-6xl font-bold text-base-100">{{ features.sections.hero.title }}</h1>
+              <p class="py-6 text-base-100">{{ features.sections.hero.subtitle }}</p>
           </div>
       </div>
       <div class="absolute bottom-8 left-0 right-0">
           <div class="flex px-2 py-1 gap-4 justify-center rounded-lg bg-base-100/60 w-fit mx-auto">
-              <button class="btn btn-outline btn-primary h-1 w-32 md:w-44">Prenota ora</button>
-              <button class="btn btn-primary h-1 w-32 md:w-44">Menù</button>
+              <button class="btn btn-outline btn-primary h-1 w-32 md:w-44">Book Now</button>
+              <button class="btn btn-primary h-1 w-32 md:w-44">Menu</button>
           </div>
       </div>
   </div>
-</section> 
+</section>
+{% endif %} 
