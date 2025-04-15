@@ -4,6 +4,7 @@ node_modules/
 # 11ty build output
 _site/
 .sass-cache/
+.cache/
 
 # Environment variables
 .env
