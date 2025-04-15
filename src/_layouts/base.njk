@@ -17,10 +17,7 @@
     {% include "components/navbar.njk" %}
 
     <main class="">
-        {% include "sections/hero.njk" %}
-        {% include "sections/who-we-are.njk" %}
-        {% include "sections/testimonials.njk" %}
-        {% include "sections/experiences.njk" %}
+        {{ content | safe }}
     </main>
 
     {% include "components/footer.njk" %}

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = function(eleventyConfig) {
   // Copy assets directly to output
   eleventyConfig.addPassthroughCopy("src/assets");
