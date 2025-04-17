@@ -14,12 +14,12 @@
     <script src="{{ '/assets/js/main.js' | url }}" defer></script>
 </head>
 <body class="min-h-screen bg-base-100">
-    {% include "components/navbar.njk" %}
+    {% include "components/navbar.html" %}
 
     <main class="">
         {{ content | safe }}
     </main>
 
-    {% include "components/footer.njk" %}
+    {% include "components/footer.html" %}
 </body>
 </html> 

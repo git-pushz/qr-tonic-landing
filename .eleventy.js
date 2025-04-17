@@ -1,10 +1,7 @@
 require('dotenv').config();
 
 module.exports = function(eleventyConfig) {
-  // Copy assets directly to output
   eleventyConfig.addPassthroughCopy("src/assets");
-  
-  // Watch for changes in assets
   eleventyConfig.addWatchTarget("src/assets");
 
   return {
@@ -14,10 +11,9 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts"
     },
-    templateFormats: ["md", "njk", "html"],
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
     pathPrefix: process.env.NODE_ENV === 'production' ? '/qr-tonic-landing/' : '/'
   };
 }; 
