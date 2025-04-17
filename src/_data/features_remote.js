@@ -94,7 +94,7 @@ const Fetch = require('@11ty/eleventy-fetch');
 require('dotenv').config();
 
 /**
- * @returns {Features}
+ * @returns {Promise<Features>}
  * @throws {Error}
  */
 module.exports = async function() {

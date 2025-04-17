@@ -46,13 +46,5 @@ The production build will be generated in the `_site` directory.
 
 # TODOs
 
-- [X] Adjust the design
-- [X] Change the Logo to an icon
-- [X] Extract sections to files
-- [X] Extract texts to config
-- [X] Takes all colors from the theme color palette
-- [X] Extract colors palette to config
-- [X] Have a standard px and py on containers in index.md
 - [ ] Fix the height of the cards in testimonials
-- [ ] Use .html instead of .njk
-- [ ] Use front matter https://learn-eleventy.pages.dev/lesson/4/
+- [ ] Get the theme in `tailwind.config.js` from remote
