@@ -1,7 +1,7 @@
-{% if features.sections.experiences.enabled %}
+{% if features_remote._doc.sections.experiences.enabled != false %}
 <section id="experiences" class="bg-secondary py-16">
   <div class="container mx-auto px-4">
-    {% for experience in features.sections.experiences.items %}
+    {% for experience in features_remote._doc.sections.experiences.items %}
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 {% if not loop.last %}mb-24{% endif %} items-center">
       <div {% if loop.index0 % 2 == 1 %}class="lg:order-2"{% endif %}>
         <h2 class="text-primary text-4xl md:text-6xl font-bold mb-6">{{ experience.title }}</h2>

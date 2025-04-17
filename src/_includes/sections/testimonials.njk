@@ -1,12 +1,12 @@
-{% if features.sections.testimonials.enabled %}
+{% if features_remote._doc.sections.testimonials.enabled != false %}
 <section class="bg-neutral py-24">
   <div class="container mx-auto px-4">
-    <h2 class="text-base-100 text-4xl md:text-6xl font-bold mb-4">{{ features.sections.testimonials.title }}</h2>
-    <p class="text-base-100 text-xl mb-16">{{ features.sections.testimonials.subtitle }}</p>
+    <h2 class="text-base-100 text-4xl md:text-6xl font-bold mb-4">{{ features_remote._doc.sections.testimonials.title }}</h2>
+    <p class="text-base-100 text-xl mb-16">{{ features_remote._doc.sections.testimonials.subtitle }}</p>
   </div>
     
   <div class="grid grid-flow-col auto-cols-[80%] md:auto-cols-[45%] lg:auto-cols-[30%] overflow-x-auto gap-12">
-    {% for review in features.sections.testimonials.reviews %}
+    {% for review in features_remote._doc.sections.testimonials.reviews %}
     <div class="relative">
       <div class="bg-base-100 rounded-2xl p-6">
         <div class="flex gap-6">

@@ -1,4 +1,4 @@
-{% if features.sections.whoWeAre.enabled %}
+{% if features_remote._doc.sections.whoWeAre.enabled != false %}
 <section id="about-us" class="min-h-screen relative overflow-hidden">
   <!-- Red Background -->
   <div class="absolute inset-0 z-0">
@@ -10,11 +10,11 @@
   <!-- Content -->
   <div class="container mx-auto px-4 py-16 relative z-10">
     <div class="text-left mb-12">
-      <h2 class="text-4xl md:text-6xl font-black uppercase mb-4 text-base-100">{{ features.sections.whoWeAre.title }}</h2>
-      <p class="text-lg max-w-2xl text-base-100/90">{{ features.sections.whoWeAre.subtitle }}</p>
+      <h2 class="text-4xl md:text-6xl font-black uppercase mb-4 text-base-100">{{ features_remote._doc.sections.whoWeAre.title }}</h2>
+      <p class="text-lg max-w-2xl text-base-100/90">{{ features_remote._doc.sections.whoWeAre.subtitle }}</p>
     </div>
     <div class="join join-vertical w-full gap-2">
-      {% for trait in features.sections.whoWeAre.businessTraits %}
+      {% for trait in features_remote._doc.sections.whoWeAre.businessTraits %}
       <div class="collapse bg-base-100 rounded-xl shadow-lg">
         <input type="radio" name="about-us" {% if loop.first %}checked="checked"{% endif %} /> 
         <div class="collapse-title text-2xl md:text-4xl font-black text-primary">
