@@ -1,11 +1,6 @@
 # QR Tonic Landing Page
 
-A modern landing page built with 11ty, Tailwind CSS, and DaisyUI.
-
-## Prerequisites
-
-- Node.js (v16 or higher)
-- npm (v7 or higher)
+Built with 11ty, Tailwind CSS, and DaisyUI.
 
 ## Setup
 
@@ -29,14 +24,14 @@ npm run build
 ```
 .
 ├── src/                    # Source files
-│   ├── _includes/         # Layout templates
-│   ├── _layouts/          # Base layouts
-│   ├── assets/           # Static assets
-│   └── index.md          # Home page
-├── .eleventy.js          # 11ty configuration
-├── package.json          # Project dependencies
-├── tailwind.config.js    # Tailwind configuration
-└── README.md             # Project documentation
+│   ├── _includes/          # Layout templates
+│   ├── _layouts/           # Base layouts
+│   ├── assets/             # Static assets
+│   └── index.md            # Home page
+├── .eleventy.js            # 11ty configuration
+├── package.json            # Project dependencies
+├── tailwind.config.js      # Tailwind configuration
+└── README.md               # Project documentation
 ```
 
 ## Development
@@ -58,3 +53,6 @@ The production build will be generated in the `_site` directory.
 - [X] Takes all colors from the theme color palette
 - [X] Extract colors palette to config
 - [X] Have a standard px and py on containers in index.md
+- [ ] Fix the height of the cards in testimonials
+- [ ] Use .html instead of .njk
+- [ ] Use front matter https://learn-eleventy.pages.dev/lesson/4/
