@@ -47,4 +47,4 @@ The production build will be generated in the `_site` directory.
 # TODOs
 
 - [ ] Fix the height of the cards in testimonials
-- [ ] Get the theme in `tailwind.config.js` from remote
+- [X] Get the theme in `tailwind.config.js` from remote

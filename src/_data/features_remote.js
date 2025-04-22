@@ -92,6 +92,7 @@
 
 const Fetch = require('@11ty/eleventy-fetch');
 require('dotenv').config();
+const { writeThemeToEnv } = require('./helpers');
 
 /**
  * @returns {Promise<Features>}
@@ -110,6 +111,8 @@ module.exports = async function() {
       duration: "1d",
       type: "json"
     });
+    
+    writeThemeToEnv(data.theme.colors);
     
     console.log('Fetched data:', data);
     return data;
